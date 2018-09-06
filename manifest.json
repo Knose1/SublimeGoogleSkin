@@ -1,0 +1,26 @@
+{
+    "name": "Trap-Gate",
+    "author": "Knose1",
+    "version": "0.0.0",
+    "description": "Une extension pour le site français Anime-Gate qui le transforme en Trap-Gate",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab",
+        "https://www.anime-gate.net/*"
+    ],
+    "icons": {
+        "16": "icons/TrapGateImg.png",
+        "48": "icons/TrapGateImg.png",
+        "128": "icons/TrapGateImg.png"
+    },
+    "page_action": {
+        "default_icon": "icons/TrapGateImg.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.anime-gate.net/*"],
+            "js": ["script/index.js"],
+            "css":["script/trapGate.css"]
+        }
+    ]
+}
