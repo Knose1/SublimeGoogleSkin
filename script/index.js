@@ -14,7 +14,10 @@ document.querySelectorAll("img[src='https://www.anime-gate.net/images/anime-mang
   qsa.src = chrome.runtime.getURL("icons/TrapGateLogoInvert.svg");
 })
 
-document.querySelectorAll("link[rel=icon][href*='/favicon']").forEach(qsa => {
+document.querySelectorAll("link[rel=icon][type='image/png'][href*='/favicon']").forEach(qsa => {
+  qsa.href = chrome.runtime.getURL("icons/TrapGateImg.png");
+})
+document.querySelectorAll("link[rel=icon][type='image/png'][href*='/android-chrome']").forEach(qsa => {
   qsa.href = chrome.runtime.getURL("icons/TrapGateImg.png");
 })
 
