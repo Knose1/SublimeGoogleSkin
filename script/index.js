@@ -15,7 +15,7 @@ document.querySelectorAll("img[src='https://www.anime-gate.net/images/anime-mang
 })
 
 document.querySelectorAll("link[rel=icon][href*='/favicon']").forEach(qsa => {
-  qsa.src = chrome.runtime.getURL("icons/TrapGateImg.png");
+  qsa.href = chrome.runtime.getURL("icons/TrapGateImg.png");
 })
 
 document.head.innerHTML += `
