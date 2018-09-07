@@ -18,9 +18,6 @@
         "default_popup": "redirectAG.html",
         "default_title":"Aller sur Ag"
     },
-    "background": {
-        "scripts":["script/background.js"]
-    }
     "content_scripts": [
         {
             "matches": ["https://www.anime-gate.net/*"],
