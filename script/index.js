@@ -21,7 +21,7 @@ document.querySelectorAll("link[rel=icon][href*='/favicon']").forEach(qsa => {
 document.head.innerHTML += `
 <style>
 .news h3 {
-  linear-gradient(to top,#e70303 50%,#2c2c2c 50%);
+  background-image: linear-gradient(to top,#e70303 50%,#2c2c2c 50%);
 }
 
 a {
@@ -73,5 +73,23 @@ button.btn.btn-primary.js-ag-modal-edit-media-save {
 
 .badge-info {
     background: #ed1212;
+}
+
+.title.reverse, .title.reverse h1 {
+    color: #f20f0f;
+}
+
+.title.reverse {
+    border-left: 4px solid #f20f0f;
+}
+
+a {
+    color: #fd79f8;
+    text-shadow: 0 0 1px #ff0047;
+}
+
+/*No it's red xDD*/
+.orange {
+    color: #e41f1f;
 }
 </style>`;
