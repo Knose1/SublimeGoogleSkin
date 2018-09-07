@@ -13,11 +13,6 @@
         "48": "icons/TrapGateImg.png",
         "128": "icons/TrapGateImg.png"
     },
-    "browser_action": {
-        "default_icon": "icons/TrapGateImg.png",
-        "default_popup": "redirectAG.html",
-        "default_title":"Aller sur Ag"
-    },
     "content_scripts": [
         {
             "matches": ["https://www.anime-gate.net/*"],
