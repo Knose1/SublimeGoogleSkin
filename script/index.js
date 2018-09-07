@@ -98,6 +98,21 @@ button.btn.btn-primary.js-ag-modal-edit-media-save {
     background-color: #e70303;
 }
 
+.nav-vertical>li.active>a:focus, .nav-vertical>li.active>a:hover, .nav.nav-tabs.nav-vertical>li.active>a {
+    background-color: #e41f1f;
+    border-color: #9a1313;
+}
+.nav.nav-tabs.nav-vertical>li.active>a:hover {
+    background-color: #ba1616;
+}
+.nav.nav-tabs.nav-vertical>li>a:hover {
+    background-color: #e41f1f;
+}
+
+.nav.nav-tabs li.active a {
+    color: #e41f1f;
+}
+
 /**/
 nav li a {
     color: #fff;
