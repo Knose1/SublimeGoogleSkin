@@ -21,8 +21,7 @@
     "content_scripts": [
         {
             "matches": ["https://www.anime-gate.net/*"],
-            "js": ["script/index.js"],
-            "css":["script/trapGate.css"]
+            "js": ["script/index.js"]
         }
     ]
 }
