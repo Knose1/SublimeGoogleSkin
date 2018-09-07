@@ -1,7 +1,7 @@
 {
     "name": "Trap-Gate",
     "author": "Knose1",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Une extension pour le site français Anime-Gate qui le transforme en Trap-Gate",
     "manifest_version": 2,
     "permissions": [
