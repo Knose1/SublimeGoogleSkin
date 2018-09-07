@@ -20,6 +20,23 @@ document.querySelectorAll("link[rel=icon][href*='/favicon']").forEach(qsa => {
 
 document.head.innerHTML += `
 <style>
+a {
+    color: #ff0000;
+}
+
+a:focus, a:hover {
+    color: #9b0202;
+}
+
+a.black, a.black {
+    color: #fd79f8;
+    text-shadow: 0 0 1px #ff0047;
+}
+
+a.black:focus, a.black:hover {
+    color: #ff3333;
+}
+
 .news h3 {
   background-image: linear-gradient(to top,#e70303 50%,#2c2c2c 50%);
 }
@@ -76,23 +93,6 @@ button.btn.btn-primary.js-ag-modal-edit-media-save {
     border-left: 4px solid #f20f0f;
 }
 
-a {
-    color: #ff0000;
-}
-
-a:focus, a:hover {
-    color: #9b0202;
-}
-
-a.black, a.black {
-    color: #fd79f8;
-    text-shadow: 0 0 1px #ff0047;
-}
-
-a.black:focus, a.black:hover {
-    color: #ff3333;
-}
-
 #network-social-icons a, .nickname.newseur, .nickname.community, .nickname.webmaster, .nickname.modo{
   text-shadow: none;
 }
@@ -104,5 +104,11 @@ a.black:focus, a.black:hover {
 
 .label-primary {
     background-color: #e70303;
+}
+
+/**/
+nav li a {
+    color: #fff;
+    text-shadow: 0 0 1px #ff0000;
 }
 </style>`;
