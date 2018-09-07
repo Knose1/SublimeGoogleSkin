@@ -109,6 +109,12 @@ button.btn.btn-primary.js-ag-modal-edit-media-save {
 /**/
 nav li a {
     color: #fff;
-    text-shadow: 0 0 1px #ff0000;
+    text-shadow: none;
+}
+
+#login-box .out-of-box .inner-shadow {
+    box-shadow: 0 0 5px 0 grey;
+    border: 1px solid #000;
+    background: #fff;
 }
 </style>`;
