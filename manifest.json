@@ -13,6 +13,9 @@
         "48": "icons/TrapGateImg.png",
         "128": "icons/TrapGateImg.png"
     },
+    "web_accessible_resources": [
+      "icons/*"
+    ],
     "content_scripts": [
         {
             "matches": ["https://www.anime-gate.net/*"],
