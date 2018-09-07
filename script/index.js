@@ -21,8 +21,8 @@ document.querySelectorAll("link[rel=icon][href*='/favicon']").forEach(qsa => {
 document.head.innerHTML += `
 <style>
 a {
-    color: #fd79f8;
-    text-shadow: 0 0 1px #ff0047;
+    color: #ff0000;
+    text-shadow: 0 0 1px #000000;
 }
 
 a:focus, a:hover {
