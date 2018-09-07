@@ -92,4 +92,9 @@ a {
 .orange {
     color: #e41f1f;
 }
+
+/*After all modification ↓*/
+nav li a {
+    color: #fff;
+}
 </style>`;
