@@ -18,8 +18,11 @@ document.querySelectorAll("link[rel=icon][href*='/favicon']").forEach(qsa => {
   qsa.href = chrome.runtime.getURL("icons/TrapGateImg.png");
 })
 
+if (document.URL.indexOf("https://www.anime-gate.net/animelist/") == 0)
+  document.querySelector("style").className = "knose1Css";
+
 document.head.innerHTML += `
-<style>
+<style class="trapGate">
 a {
     color: #ff0000;
     text-shadow: 0 0 1px #000000;
@@ -123,3 +126,6 @@ nav li a {
     text-shadow: none;
 }
 </style>`;
+
+if (document.URL.indexOf("https://www.anime-gate.net/animelist/") == 0)
+  document.querySelector("style.trapGate").after(document.querySelector("style.knose1Css"));
