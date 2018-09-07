@@ -1,3 +1,9 @@
+console.log(
+  chrome.runtime.getURL("icons/TrapGateLogo.svg"),
+  chrome.runtime.getURL("icons/TrapGateLogoInvert.svg"),
+  chrome.runtime.getURL("icons/TrapGateImg.png")
+)
+
 //Ag logo
 document.querySelectorAll("img[src='https://www.anime-gate.net/images/anime-manga-download-animegate-logo.svg']").forEach(qsa => {
   qsa.src = chrome.runtime.getURL("icons/TrapGateLogo.svg");
