@@ -24,10 +24,6 @@ document.head.innerHTML += `
   background-image: linear-gradient(to top,#e70303 50%,#2c2c2c 50%);
 }
 
-a {
-  color: #e70303;
-}
-
 .btn-primary {
   background-color: #e70303;
   border-color: #e70303;
@@ -86,6 +82,10 @@ button.btn.btn-primary.js-ag-modal-edit-media-save {
 a {
     color: #fd79f8;
     text-shadow: 0 0 1px #ff0047;
+}
+
+#network-social-icons a{
+  text-shadow: none;
 }
 
 /*No it's red xDD*/
