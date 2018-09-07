@@ -105,8 +105,6 @@ nav li a {
 }
 
 #login-box .out-of-box .inner-shadow {
-    box-shadow: 0 0 5px 0 grey;
-    border: 1px solid #000;
-    background: #fff;
+    text-shadow: none;
 }
 </style>`;
