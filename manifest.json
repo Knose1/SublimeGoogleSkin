@@ -9,6 +9,9 @@
 		"https://www.google.com/search*",
 		"https://www.google.fr/search*"
 	],
+	"web_accessible_resources": [
+		"script/css/*"
+	],
 	"content_scripts":[
 		{
 			"matches": ["https://www.google.com/search*","https://www.google.fr/search*"],
