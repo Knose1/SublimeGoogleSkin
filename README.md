@@ -11,4 +11,4 @@ Une extension pour le site Google
  6) Choisissez le dossier contenant le fichier [manifest.json](https://github.com/Knose1/SublimeGoogleSkin/blob/master/manifest.json)
   
   
-###### Repository Cloned from [TrapGate](https://github.com/Knose1/TrapGate/)
+###### Repository Cloned from [TrapGate](https://github.com/Knose1/Trap-Gate)
