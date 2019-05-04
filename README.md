@@ -9,3 +9,6 @@ Une extension pour le site Google
  4) Activez le mode développeur (en haut à droite)
  5) Cliquez sur "charger l'extension non empactée"
  6) Choisissez le dossier contenant le fichier [manifest.json](https://github.com/Knose1/SublimeGoogleSkin/blob/master/manifest.json)
+
+
+###### Repository Cloned from [TrapGate](https://github.com/Knose1/TrapGate/)
