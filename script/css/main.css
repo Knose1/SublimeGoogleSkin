@@ -211,6 +211,7 @@ span.Q8LRLc {
     color: #f2a14b !important;
 }
 
+/* Traduction arrow */
 .vk_aru:before {
     border-bottom-color:var(--trad-colapse-arrow-color) !important;
 }
@@ -221,6 +222,18 @@ span.Q8LRLc {
 .vk_aru:after {
     border-bottom-color:#232831 !important;
 }
+
+.vk_ard:before {
+    border-top-color:var(--trad-colapse-arrow-color) !important;
+}
+.vk_ard {
+    background-color:var(--trad-colapse-arrow-color) !important;
+}
+
+.vk_ard:after {
+    border-top-color:#232831 !important;
+}
+
 
 #tw-container .exp-txt-c {
     color: #ffb566 !important;
