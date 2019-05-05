@@ -205,8 +205,12 @@
 	],
 	"content_scripts":[
 		{
+			"matches": ["https://*./"],
+			"js": ["script/index.js", "script/styleLoader/homepage.js"]
+		}
+		{
 			"matches": ["https://*./search*"],
-			"js": ["script/styleUtils.js", "script/styleSearch.js"]
+			"js": ["script/index.js", "script/styleLoader/search.js"]
 		}
 	],
 	"icons": {
