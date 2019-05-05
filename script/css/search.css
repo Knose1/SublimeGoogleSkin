@@ -9,13 +9,8 @@
 
 
 /* Général */
-body {
-   background-color: #2b313c !important;
-   color: #FFF !important;
-}
-
 #fbar, #hdtbSum, #appbar, .yAVMkd {
-    background: #0000002e !important;
+    background: var(--black-semi-transparent-background-color) !important;
 }
 
 #top_nav {
@@ -28,7 +23,7 @@ body {
 
 /* Barre de recherche */
 .minidiv .sfbg {
-    background-color: #2b313c !important; 
+    background-color: var(--body-background-color) !important; 
 }
 
 .RNNXgb input {
@@ -77,11 +72,11 @@ body {
 }
 
 #hdtb {
-    border-bottom: 1px solid #e88c1a !important;
+    border-bottom: 1px solid var(--neon-orange-border-color) !important;
 }
 
 #hdtb-msb .hdtb-mitem.hdtb-msel {
-    color: #e8831a !important;
+    color: var(--neon-orange-color) !important;
     border-bottom: 3px solid #e88c1a !important;
 }
 
@@ -106,10 +101,10 @@ body {
 
 /* Connexion button */
 .gb_1 {
-    border: 1px solid hsla(28, 89%, 61%, 1) !important;
-    background: hsla(28, 89%, 61%, 1) !important;
-    background: -webkit-linear-gradient(top,hsl(28, 98%, 63%),hsla(28, 80%, 60%, 1)) !important;
-    background: linear-gradient(top,hsl(28, 98%, 63%),hsla(28, 80%, 60%, 1)) !important;
+    border: var(--button-border) !important;
+    background: var(--button-background-fallback) !important;
+    background: var(--button-background-webkit) !important;
+    background: var(--button-background-other) !important;
 }
 
 #gb a.gb_1.gb_1 {
@@ -125,37 +120,37 @@ body {
 
 /* Contenu de la page */
 .st {
-    color:#BBB !important
+    color: var(--main-text-color) !important
 }
 
 .s .st em, .st.s.std em {
-    color : #DDD !important
+    color: var(--bold-text-color) !important
 }
 
 a:link, .w, #prs a:visited, #prs a:active, .q:active, .q:visited, .kl:active, .tbotu {
-    color : hsl(28, 98%, 63%) !important;
+    color: var(--dark-orange-color) !important;
 }
 
 .mblink:visited, a:visited {
-    color: #00e622 !important;
+    color: var(--neon-green-color) !important;
 }
 
 .a, cite, cite a:link, cite a:visited, .cite, .cite:link, #nygTcd>i, .bc a:link {
-    color: #a2c6e0 !important;
+    color: var(--light-blue-color) !important;
 }
 
 .GHDvEf, .GHDvEf:hover, .GHDvEf.selected, .GHDvEf.selected:hover {
-    background-color:#2b313c !important;
+    background-color: var(--body-background-color) !important;
 }
 .action-menu .mn-dwn-arw {
-    border-color: #a2c6e0 transparent !important;
+    border-color: var(--light-blue-color) transparent !important;
 }
 
 a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b {
-    color:#83c38b !important;
+    color: var(--light-green-color) !important;
 }
 #brs .med {
-    color:#DDD !important;
+    color: var(--bold-text-color) !important;
 }
 
 
@@ -169,7 +164,7 @@ span.Q8LRLc {
 }
 
 #Wprf1b {
-    color: hsla(25, 98%, 67%, 1) !important;
+    color: var(--orange-color) !important;
 }
 
 .smiUbb, .smiUbb a, #swml a {
@@ -184,7 +179,7 @@ span.Q8LRLc {
 
 /* Traduction */
 .vk_c, .vk_cxp {
-    background-color: #0000002e !important;
+    background-color: var(--black-semi-transparent-background-color) !important;
 }
 
 .tw-lang-selector {
@@ -204,7 +199,7 @@ span.Q8LRLc {
 }
 
 #tw-source-text-container * {
-    color:hsl(28, 98%, 63%) !important;
+    color:var(--dark-orange-color) !important;
 }
 
 .tw-bilingual-pos.vk_dgy {
@@ -236,5 +231,5 @@ span.Q8LRLc {
 
 
 #tw-container .exp-txt-c {
-    color: #ffb566 !important;
+    color: var(--light-orange-color) !important;
 }
