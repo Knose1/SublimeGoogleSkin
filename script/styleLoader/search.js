@@ -1,0 +1,7 @@
+// will check if the host is *.google.*
+com.github.knose1.sublimeGoogleSkin.checkPath(
+  google,
+	() => {
+		com.github.knose1.sublimeGoogleSkin.addExternalCss( chrome.runtime.getURL("script/css/search.css") );
+	}
+);
