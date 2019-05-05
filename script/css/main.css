@@ -1,0 +1,30 @@
+:root {
+	--body-background-color: #2b313c;
+	--black-semi-transparent-background-color: #0000002e;
+
+	--main-text-color: #BBB;
+	--bold-text-color: #DDD;
+
+	/* Button */
+	--button-border: 1px solid hsla(28, 89%, 61%, 1) !important;
+	--button-background: hsla(28, 89%, 61%, 1) !important;
+	--button-background: -webkit-linear-gradient(top,hsl(28, 98%, 63%),hsla(28, 80%, 60%, 1)) !important;
+	--button-background: linear-gradient(top,hsl(28, 98%, 63%),hsla(28, 80%, 60%, 1)) !important;
+
+	/* Global Colors */
+	--light-orange-color: #ffb566;
+	--dark-orange-color: hsl(28, 98%, 63%);
+	--orange-color: hsl(25, 98%, 67%);
+	--neon-orange-color: #e8831a;
+	--neon-orange-border-color: #e88c1a;
+
+	--neon-green-color: #00e622;
+	--light-green-color: #83c38b;
+
+	--light-blue-color: #a2c6e0;
+}
+
+body {
+	background-color: var(--body-background-color) !important;
+	color: #FFF !important;
+}
