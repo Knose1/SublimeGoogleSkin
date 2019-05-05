@@ -207,7 +207,7 @@
 		{
 			"matches": ["https://*./"],
 			"js": ["script/index.js", "script/styleLoader/homepage.js"]
-		}
+		},
 		{
 			"matches": ["https://*./search*"],
 			"js": ["script/index.js", "script/styleLoader/search.js"]
