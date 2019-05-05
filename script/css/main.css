@@ -28,3 +28,97 @@ body {
 	background-color: var(--body-background-color) !important;
 	color: #FFF !important;
 }
+
+/* Nav bar */
+#gb#gb a.gb_c, #gb#gb a.gb_d, #gb#gb span.gb_d {
+	color:var(--bold-text-color) !important;
+}
+
+
+/* Google account */
+.gb_jb, .gb_ub, .gb_z {
+    background-color: var(--body-background-color) !important;
+}
+
+.gb_Wa {
+    background: var(--black-semi-transparent-background-color) !important;
+    color: var(--main-text-color) !important;
+}
+
+.gb_Kb, .gb_bb {
+    color: var(--bold-text-color) !important;
+}
+
+.gb_Lb, .gb_db {
+    color: var(--main-text-color) !important;
+}
+
+.gb_0, #gb a.gb_0.gb_0, .gb_1 {
+    border: var(--button-border) !important;
+    background: var(--button-background-fallback) !important;
+    background: var(--button-background-webkit) !important;
+    background: var(--button-background-other) !important;
+    color: var(--dark-orange-color) !important;
+}
+
+.gb_mb .gb_Ra {
+    border-bottom-color: var(--black-semi-transparent-background-color) !important;
+}
+
+.gb_yb:hover {
+    background-color: var(--black-semi-transparent-background-color) !important;
+}
+
+
+
+
+
+
+
+
+
+/* Google Apps */
+#gb#gb a.gb_x:empty {
+    filter: contrast(0) brightness(100) !important;
+}
+
+.gb_U .gb_C {
+    background-color: transparent !important;
+}
+
+.gb_A.gb_z.gb_U.gb_7b.gb_B {
+    background: #232831 !important;
+}
+
+a.gb_D.gb_If {
+	-webkit-box-shadow: inset 0px 1px 2px rgb(70, 75, 82);
+	box-shadow: inset 0px 1px 2px rgb(70, 75, 82);
+	background: var(--body-background-color) !important;
+	color:var(--dark-orange-color) !important;
+}
+.gb_Q {
+	-webkit-box-shadow: 0 1px 2px rgb(70, 75, 82), 0 0 1px rgb(70, 75, 82) !important;
+	box-shadow: 0 1px 2px rgb(70, 75, 82), 0 0 1px rgb(70, 75, 82) !important;
+}
+
+.gb_S {
+    color: #FFF;
+}
+
+.gb_m {
+    color: var(--dark-orange-color) !important;
+}
+
+.gb_T, #gb#gb .gb_T {
+    color: var(--light-blue-color) !important;
+}
+
+.gb_h:hover .gb_m {
+    background: none !important;
+}
+
+.gb_h:hover a {
+    border-color: transparent !important;
+    -webkit-box-shadow: 0 1px 2px rgb(70, 75, 82), 0 0 1px rgb(70, 75, 82) !important;
+    box-shadow: 0 1px 2px rgb(70, 75, 82), 0 0 1px rgb(70, 75, 82) !important;
+}

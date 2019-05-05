@@ -1,1 +1,33 @@
+.minidiv .sfbg {
+    background-color: var(--body-background-color) !important; 
+}
 
+.RNNXgb input {
+    color: #ffffff !important;
+    font-size: 15px !important;
+}
+.RNNXgb {
+    background: #0006 !important;
+    border: 1px solid #f48c42 !important;
+}
+
+.jhp input[type="submit"], .jhp button[type="button"], .sbdd_a input, .gbqfba {
+    border: var(--button-border) !important;
+    background: var(--button-background-fallback) !important;
+    background: var(--button-background-webkit) !important;
+    background: var(--button-background-other) !important;
+    color: var(--dark-orange-color) !important;
+}
+
+.aajZCb {
+    background: #1a1d24 !important;
+    border: 1px solid #f48c42 !important;
+}
+
+.sbl1 {
+    color: #ffffff !important;
+}
+
+.sbct:first-child .suggestions-inner-container {
+    border:none !important;
+}

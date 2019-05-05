@@ -67,7 +67,7 @@
 /* Barre de navigation */
 
 
-#gb#gb a.gb_x {
+#gb#gb a.gb_x:empty {
     filter: contrast(0) brightness(100) !important;
 }
 
@@ -232,4 +232,81 @@ span.Q8LRLc {
 
 #tw-container .exp-txt-c {
     color: var(--light-orange-color) !important;
+}
+
+
+
+
+
+
+
+/* Information pan */
+.cwUqwd {
+    color: #FFF !important;
+}
+
+.y8Jpof .LrzXr {
+    color: var(--main-text-color) !important;
+}
+
+.kp-blk {
+    background-color: var(--black-semi-transparent-background-color) !important;
+}
+
+.garHBe {
+    color: var(--bold-text-color) !important;
+}
+
+.k4DMHe .xXEKkb {
+    color: var(--dark-orange-color) !important;
+}
+
+.y8Jpof:hover {
+    background: none !important;
+}
+
+/*.y8Jpof:hover .xXEKkb {
+    color: var(--neon-green-color) !important;
+}*/
+
+.y8Jpof:hover .rhsl4 {
+    color: var(--neon-green-color) !important;
+}
+
+.kno-ecr-pt {
+    color: white !important;
+}
+
+.wwUB2c {
+    color: var(--light-green-color) !important;
+}
+
+
+
+/* Youtube video */
+g-inner-card {
+    background-color: var(--black-semi-transparent-background-color) !important;
+}
+
+.zECGdd, .zECGdd.Fuybue:visited {
+    color: var(--bold-text-color) !important;
+}
+
+g-fab.CNf3nf.LhCR5d {
+    background-color: #232831 !important;
+    color: #FFF !important;
+}
+
+.Lu0opc.eSq3C:hover g-fab.CNf3nf.LhCR5d {
+    color: var(--neon-orange-color) !important;
+}
+
+.cJzOGc {
+    color: var(--neon-green-color) !important;
+}
+
+
+/* Other */
+a.Q2MMlc * {
+    color: var(--light-blue-color) !important;
 }
