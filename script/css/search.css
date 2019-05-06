@@ -8,7 +8,7 @@
 
 
 
-/* Général */
+/* GÃ©nÃ©ral */
 #fbar, #hdtbSum, #appbar, .yAVMkd {
     background: var(--black-semi-transparent-background-color) !important;
 }
@@ -41,7 +41,7 @@
 
 
 
-/* Règles de confidentialité google */
+/* RÃ¨gles de confidentialitÃ© google */
 .yAVMkd .KJXbRb{
     color: #dfdfdf !important;
 }
@@ -310,3 +310,35 @@ g-fab.CNf3nf.LhCR5d {
 a.Q2MMlc * {
     color: var(--light-blue-color) !important;
 }
+
+.Ss2Faf {
+    color: var(--bold-text-color) !important;
+}
+
+.DubFFd, .gXgTfd {
+    color: var(--light-green-color) !important;
+}
+
+.N74d8e {
+    color:var(--main-text-color) !important;
+}
+
+.rsir2d {
+    color: white !important;
+}
+
+.SW5pqf {
+    color: var(--light-blue-color) !important;
+}
+
+/* Google Image */
+.Mw2I7, .rg_bx a {
+    background-color: var(--black-semi-transparent-background-color) !important;
+}
+
+.Mw2I7 {
+    color:var(--neon-orange-color) !important;
+    font-weight: bold !important;
+}
+
+g-right-button.Lu0opc.k2Oeod.SkGIjd.nb-fades {}

@@ -31,3 +31,33 @@
 .sbct:first-child .suggestions-inner-container {
     border:none !important;
 }
+
+/**/
+#fbar {
+    background-color: var(--black-semi-transparent-background-color) !important;
+    border-color: #f48c42 !important;
+}
+
+.b2hzT {
+   border-color: #f48c42 !important;
+}
+
+.Q8LRLc {
+   color: var(--bold-text-color) !important;
+}
+
+.ftl, #footer a {
+    color: var(--main-text-color) !important;
+}
+
+.gb_Xa, #gb a.gb_Xa.gb_Xa, .gb_Za a, #gb .gb_Za.gb_Za a {
+    color: var(--dark-orange-color) !important;
+}
+
+img#hplogo {
+    filter: hue-rotate(-15deg);
+}
+
+.sbhl {
+    background-color:var(--body-background-color) !important;
+}
