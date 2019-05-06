@@ -8,7 +8,7 @@
 
 
 
-/* GÃ©nÃ©ral */
+/* General */
 #fbar, #hdtbSum, #appbar, .yAVMkd {
     background: var(--black-semi-transparent-background-color) !important;
 }
@@ -21,7 +21,7 @@
 
 
 
-/* Barre de recherche */
+/* Search bar */
 .minidiv .sfbg {
     background-color: var(--body-background-color) !important; 
 }
@@ -41,7 +41,7 @@
 
 
 
-/* RÃ¨gles de confidentialitÃ© google */
+/* Confidentiality rules (alert) */
 .yAVMkd .KJXbRb{
     color: #dfdfdf !important;
 }
@@ -64,7 +64,7 @@
 
 
 
-/* Barre de navigation */
+/* Nav bar */
 
 
 #gb#gb a.gb_x:empty {
@@ -105,11 +105,7 @@
     background: var(--button-background-fallback) !important;
     background: var(--button-background-webkit) !important;
     background: var(--button-background-other) !important;
-}
 
-#gb a.gb_1.gb_1 {
-    color: #000 !important;
-}
 /**/
 
 
@@ -118,7 +114,7 @@
 
 
 
-/* Contenu de la page */
+/* Page content */
 .st {
     color: var(--main-text-color) !important
 }
@@ -158,7 +154,7 @@ a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b {
 
 
 
-/* Barre du bas */
+/* Footer */
 span.Q8LRLc {
     color: white !important;
 }
@@ -177,7 +173,7 @@ span.Q8LRLc {
 
 
 
-/* Traduction */
+/* (Google) Translation */
 .vk_c, .vk_cxp {
     background-color: var(--black-semi-transparent-background-color) !important;
 }
@@ -206,7 +202,7 @@ span.Q8LRLc {
     color: #f2a14b !important;
 }
 
-/* Traduction arrow */
+/* Translation arrow */
 .vk_aru:before {
     border-bottom-color:var(--trad-colapse-arrow-color) !important;
 }
