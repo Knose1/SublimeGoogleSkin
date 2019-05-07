@@ -3,7 +3,6 @@ name: Element not skinned
 about: Create a report when something has a bad design / or is not skinned
 title: "[NOT_SKINNED] ...."
 labels: not skinned
-assignees: Knose1
 
 ---
 
